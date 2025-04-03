@@ -5,15 +5,13 @@ using UnityEngine;
 public class Num1 : MonoBehaviour
 {
     int num1 = 0;
-    int resultado;
-    int multiplicacion;
+   
     // Start is called before the first frame update
     void Start()
     {
-        resultado = num1 + 2;
-        Debug.Log("La suma de " + num1 + " y " + "2" + " es: " + resultado);
-        multiplicacion = resultado * resultado;
-        Debug.Log("La multiplicacion de " + resultado + " y " + resultado + " es: " + multiplicacion);
+        num1 += 2;
+        Debug.Log(num1);
+        Debug.Log(num1 * num1);
 
     }
 
