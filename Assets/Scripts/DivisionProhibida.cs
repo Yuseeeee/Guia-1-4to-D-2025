@@ -5,8 +5,8 @@ using UnityEngine;
 public class DivisionProhibida : MonoBehaviour
 {
 
-    public float num1;
-    public float num2;
+    public int num1;
+    public int num2;
     float resultado;
     // Start is called before the first frame update
     void Start()
@@ -16,7 +16,7 @@ public class DivisionProhibida : MonoBehaviour
             Debug.Log("No se puede dividir por cero");
         }else
         {
-            resultado = num1 / num2;
+            resultado = num1 / (num2 * 1.0f);
             Debug.Log(num1 + " / " + num2 + " = " + resultado);
         }
         
