@@ -112,7 +112,7 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &275719850
+--- !u!1 &586691251
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -120,36 +120,35 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 275719852}
-  - component: {fileID: 275719851}
+  - component: {fileID: 586691253}
+  - component: {fileID: 586691252}
+  - component: {fileID: 586691254}
   m_Layer: 0
-  m_Name: Conversion de moneda
+  m_Name: Comida de animalitos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!114 &275719851
+  m_IsActive: 1
+--- !u!114 &586691252
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 275719850}
+  m_GameObject: {fileID: 586691251}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fdb090e09a20f7e4ebd3113a34f63ffc, type: 3}
+  m_Script: {fileID: 11500000, guid: 066c517e6afe65e429d56aa9c6f9a01c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  montoAConvertir: 1129
-  codigoMoneda: R
---- !u!4 &275719852
+--- !u!4 &586691253
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 275719850}
+  m_GameObject: {fileID: 586691251}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -157,7 +156,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1455142717
+--- !u!114 &586691254
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 586691251}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 926b00daef5e90e41a7159d8ec2653bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &1819481889
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -165,9 +176,9 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1455142720}
-  - component: {fileID: 1455142719}
-  - component: {fileID: 1455142718}
+  - component: {fileID: 1819481892}
+  - component: {fileID: 1819481891}
+  - component: {fileID: 1819481890}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -175,21 +186,21 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!81 &1455142718
+--- !u!81 &1819481890
 AudioListener:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1455142717}
+  m_GameObject: {fileID: 1819481889}
   m_Enabled: 1
---- !u!20 &1455142719
+--- !u!20 &1819481891
 Camera:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1455142717}
+  m_GameObject: {fileID: 1819481889}
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
@@ -225,13 +236,13 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
---- !u!4 &1455142720
+--- !u!4 &1819481892
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1455142717}
+  m_GameObject: {fileID: 1819481889}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
